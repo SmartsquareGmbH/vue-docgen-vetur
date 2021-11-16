@@ -1,5 +1,5 @@
 import path from "path"
-import fs from "fs/promises"
+import { promises as fs } from "fs"
 import glob from "fast-glob"
 import mkdirp from "mkdirp"
 import { parse } from "vue-docgen-api"
