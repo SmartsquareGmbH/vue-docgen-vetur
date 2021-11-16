@@ -19,7 +19,7 @@ describe("index.js", () => {
 
     expect(result.stderr).toEqual("")
     expect(result.stdout).toContain(await getVersion())
-  })
+  }, 30_000)
 
   test("run", async () => {
     const result = await execSh.promise([`ts-node src/index.ts -o ${tmpDir.path} tests/__data__/*`], true)
@@ -29,7 +29,7 @@ describe("index.js", () => {
     // Check if files exist.
     await fs.access(path.join(tmpDir.path, "tags.json"))
     await fs.access(path.join(tmpDir.path, "attributes.json"))
-  })
+  }, 30_000)
 })
 
 async function getVersion(): Promise<string> {
