@@ -11,6 +11,14 @@
   "bin": {
     "vue-docgen-vetur": "dist/index.js"
   },
+  "keywords": [
+    "vue",
+    "docgen",
+    "vetur",
+    "components",
+    "generator",
+    "tooling"
+  ],
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc",
