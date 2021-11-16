@@ -35,7 +35,6 @@
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
-    "@types/minimist": "^1.2.2",
     "@types/mkdirp": "^1.0.2",
     "@types/pkginfo": "^0.4.0",
     "@types/tmp": "^0.2.2",
