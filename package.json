@@ -1,0 +1,46 @@
+{
+  "name": "vue-docgen-vetur",
+  "version": "0.1.0",
+  "description": "Generate vetur component data for your vue component library",
+  "repository": "git@github.com:SmartsquareGmbH/vue-docgen-vetur.git",
+  "author": "Ruben Gees <rubengees7@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "vue-docgen-vetur": "dist/index.js"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "lint": "eslint --ignore-path .gitignore --max-warnings 0 .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "fast-glob": "^3.2.7",
+    "mkdirp": "^1.0.4",
+    "param-case": "^3.0.4",
+    "pkginfo": "^0.4.1",
+    "vue-docgen-api": "^4.41.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/minimist": "^1.2.2",
+    "@types/mkdirp": "^1.0.2",
+    "@types/pkginfo": "^0.4.0",
+    "@types/tmp": "^0.2.2",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1",
+    "tmp-promise": "^3.0.3",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
