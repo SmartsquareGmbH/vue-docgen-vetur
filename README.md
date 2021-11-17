@@ -1,4 +1,4 @@
-# vue-docgen-vetur ![npm](https://img.shields.io/npm/v/vue-docgen-vetur) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/SmartsquareGmbH/vue-docgen-vetur/ci)
+# vue-docgen-vetur ![npm](https://img.shields.io/npm/v/vue-docgen-vetur) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/SmartsquareGmbH/vue-docgen-vetur/CI)
 
 Generate vetur component data for your vue component library.
 
